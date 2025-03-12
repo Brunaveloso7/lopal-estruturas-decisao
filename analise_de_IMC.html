@@ -12,7 +12,7 @@
         // verificar se o IMC está no intervalo entre 18.5 e 35
         //Se estiver nessse intervalo exibir o IMC e dar os parabéns para o usuário
         //Se estiver abaixo de 18.5 exibir "Seu IMC indica que você está abaixo do peso!"
-        //
+        //Se estiver acima de 35 exibir "Seu IMC indica que você está acima do peso"
 
         let peso = parseFloat(prompt("Digite aqui o seu peso:"));
         let altura = parseFloat(prompt("Digite aqui a sua altura:"));
@@ -25,7 +25,7 @@
         } else if (seuIMC > 35) {
             document.write("Seu IMC indica que você está acima do peso");
         } else {
-            document.write("Seu IMC indica que você está com o peso ideal");
+            document.write("Seu IMC indica que você está com o peso ideal,Parabéns!");
         }
     
         
